@@ -1,46 +1,57 @@
 body{
-background-color: rgb(55, 59, 55);
+    
+    /*background-color: rgba(247, 181, 181, 0.164); */   
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1{
-    align: center;
-    justify-content: center;
+    
+    display: flex;
+    align-content:center;
+    justify-content: center;    
 }
 header{
-    border-radius: 20px;
-    min-height: 50px;
-    background-color: rgb(240, 123, 13);
-        color: #ebebeb;
-        font-family: "Oswald", sans-serif;
-        font-size: 2rem;
-        text-transform: uppercase;
-        height: 200px;
-        display: flex;
-        
+        border-style: double;
+        border-radius: 15px;
+          
+        border-color: rgb(0, 0, 0);
+        background-color:rgb(211, 219, 230);
+        margin: 5px;
+        padding: 5px;
+        border-radius: 20px;
+        min-height: 20px;
+        background-color: rgb(124, 5, 5);
+        color: #ebebeb;        
+        font-size: 2rem;        
+        height: 100px;
+        display: flex; 
+        justify-content: center;
+        align-items: center;       
 }
 /*.index_header{
     justify-content: center;
 }
 */
-#h1_header{
+/*#h1_header{
     
     align-items: flex-start;
-}
+}*/
 #index_nav{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content:flex-start;
+    /*align-items: flex-start;*/
 }
 nav{
+    margin: 5px;
+    padding: 5px;
     font-size: 1rem;
     border: 5px;
     border-style: double;
     border-radius: 15px;
-    border-color: rgb(18, 220, 65);
-    background-color:rgb(4, 92, 199);
+    border-color: rgb(0, 0, 0);
+    background-color:rgb(122, 9, 9);
 }
 a{
-    
+    color: #e9dcdc;
     margin: 5px;
     padding: 5px;
 }
@@ -51,13 +62,56 @@ aside{
     min-width: 20px;
     width: 200px;
 }
-#index_aside_one{
+main{
+    align-content: center;
+    justify-content: center;
+    width: 800px;
+}
+.aside_left{
 align-items: flex-start;
 }
+.image_div{
+    background-image: url("claire-holt.jpg");
+    background-origin: border-box;
+    width: 220px;
+    border: 5px;
+    border-radius: 20px;
+    border-style: ridge;
+    padding:50px 40px 50px;
+}
+p{
+    border-radius: 15px;
+    border-color: rgb(206, 25, 25);
+    border-width: 5px;
+    border-style: groove;
+    margin: 5px;
+    padding: 5px;
+    background-color: bisque;
+    color: chocolate;
+    text-align: start;
+}
+h3{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 5px;
+    border-block: 5px solid;
+    border-block-color: rgba(59, 2, 2, 0.692) darkred;
+    
+    margin: 5px;
+    padding: 5px;
+    background-color: bisque;
+    color: chocolate;
+   text-align: center;
+}
+a:hover{
+    transform: rotate(15deg);
+    border-block-end-width: 8px;
+    border-block-start-style: double;
+}
 
-#index_main{
+main_middle{
 align-items: center;
 }
-#index_aside_two{
+aside_right{
     align-items: flex-end;
 }
